@@ -41,3 +41,43 @@ Greeter is already defined as class Greeter
 trait Greeter {
 ^
 2022.04.17 21:18:35 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 2.67s
+2022.04.17 21:26:18 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/honda/Documents/GitHub/basicsScala-1/.metals/lsp.trace.json or /Users/honda/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.04.17 21:26:19 INFO  logging to file /Users/honda/Documents/GitHub/basicsScala-1/.metals/metals.log
+2022.04.17 21:26:19 INFO  Started: Metals version 0.11.2 in workspace '/Users/honda/Documents/GitHub/basicsScala-1' for client Visual Studio Code 1.66.1.
+2022.04.17 21:26:19 INFO  Parse release: 17.0.1
+2022.04.17 21:26:25 INFO  time: initialize in 5.34s
+2022.04.17 21:26:30 INFO  Attempting to connect to the build server...
+2022.04.17 21:26:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/honda/Documents/GitHub/basicsScala-1/.metals/bsp.trace.json or /Users/honda/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.04.17 21:26:31 INFO  Attempting to connect to the build server...
+2022.04.17 21:26:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/honda/Documents/GitHub/basicsScala-1/project/.metals/bsp.trace.json or /Users/honda/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.04.17 21:26:31 INFO  time: Connected to build server in 0.93s
+2022.04.17 21:26:31 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.17 21:26:31 INFO  time: Imported build in 0.12s
+2022.04.17 21:26:42 INFO  time: indexed workspace in 10s
+2022.04.17 21:26:43 INFO  running '/Users/honda/Library/Java/JavaVirtualMachines/openjdk-17.0.1/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/_b/hrkvdycn7db7dw26w78xv6gm0000gn/T/metals14783676733161738991/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.04.17 21:26:49 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 17.0.1)
+2022.04.17 21:27:00 INFO  [info] loading settings for project basicsscala-1-build-build from metals.sbt ...
+2022.04.17 21:27:02 INFO  [info] loading project definition from /Users/honda/Documents/GitHub/basicsScala-1/project/project
+2022.04.17 21:27:10 INFO  [info] loading settings for project basicsscala-1-build from metals.sbt ...
+2022.04.17 21:27:10 INFO  [info] loading project definition from /Users/honda/Documents/GitHub/basicsScala-1/project
+2022.04.17 21:27:16 INFO  [success] Generated .bloop/basicsscala-1-build.json
+2022.04.17 21:27:16 INFO  [warn] Removed stale /Users/honda/Documents/GitHub/basicsScala-1/project/.bloop/basicsscala-build.json
+2022.04.17 21:27:16 INFO  [success] Total time: 6 s, completed Apr 17, 2022, 9:27:16 PM
+2022.04.17 21:27:19 INFO  [info] loading settings for project root from build.sbt ...
+2022.04.17 21:27:19 INFO  [info] set current project to scala3 (in build file:/Users/honda/Documents/GitHub/basicsScala-1/)
+2022.04.17 21:27:20 INFO  [success] Generated .bloop/root.json
+2022.04.17 21:27:20 INFO  [success] Generated .bloop/root-test.json
+2022.04.17 21:27:20 INFO  [success] Total time: 0 s, completed Apr 17, 2022, 9:27:20 PM
+2022.04.17 21:27:20 INFO  time: ran 'sbt bloopInstall' in 36s
+2022.04.17 21:27:20 INFO  Disconnecting from Bloop session...
+2022.04.17 21:27:20 INFO  Shut down connection with build server.
+2022.04.17 21:27:20 INFO  Shut down connection with build server.
+2022.04.17 21:27:20 INFO  Attempting to connect to the build server...
+2022.04.17 21:27:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/honda/Documents/GitHub/basicsScala-1/.metals/bsp.trace.json or /Users/honda/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.04.17 21:27:20 INFO  Attempting to connect to the build server...
+2022.04.17 21:27:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/honda/Documents/GitHub/basicsScala-1/project/.metals/bsp.trace.json or /Users/honda/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.04.17 21:27:20 INFO  time: Connected to build server in 0.11s
+2022.04.17 21:27:20 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.17 21:27:23 INFO  time: indexed workspace in 2.97s
+Apr 17, 2022 9:53:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

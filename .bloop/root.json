@@ -2,13 +2,13 @@
     "version": "1.4.0",
     "project": {
         "name": "root",
-        "directory": "/Users/honda/Documents/GitHub/basicsScala",
-        "workspaceDir": "/Users/honda/Documents/GitHub/basicsScala",
+        "directory": "/Users/honda/Documents/GitHub/basicsScala-1",
+        "workspaceDir": "/Users/honda/Documents/GitHub/basicsScala-1",
         "sources": [
-            "/Users/honda/Documents/GitHub/basicsScala/src/main/scala",
-            "/Users/honda/Documents/GitHub/basicsScala/src/main/scala-3",
-            "/Users/honda/Documents/GitHub/basicsScala/src/main/java",
-            "/Users/honda/Documents/GitHub/basicsScala/target/scala-3.1.1/src_managed/main"
+            "/Users/honda/Documents/GitHub/basicsScala-1/src/main/scala",
+            "/Users/honda/Documents/GitHub/basicsScala-1/src/main/scala-3",
+            "/Users/honda/Documents/GitHub/basicsScala-1/src/main/java",
+            "/Users/honda/Documents/GitHub/basicsScala-1/target/scala-3.1.1/src_managed/main"
         ],
         "dependencies": [
             
@@ -17,11 +17,11 @@
             "/Users/honda/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.1/scala3-library_3-3.1.1.jar",
             "/Users/honda/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
         ],
-        "out": "/Users/honda/Documents/GitHub/basicsScala/.bloop/root",
-        "classesDir": "/Users/honda/Documents/GitHub/basicsScala/.bloop/root/scala-3/classes",
+        "out": "/Users/honda/Documents/GitHub/basicsScala-1/.bloop/root",
+        "classesDir": "/Users/honda/Documents/GitHub/basicsScala-1/.bloop/root/scala-3/classes",
         "resources": [
-            "/Users/honda/Documents/GitHub/basicsScala/src/main/resources",
-            "/Users/honda/Documents/GitHub/basicsScala/target/scala-3.1.1/resource_managed/main"
+            "/Users/honda/Documents/GitHub/basicsScala-1/src/main/resources",
+            "/Users/honda/Documents/GitHub/basicsScala-1/target/scala-3.1.1/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -137,7 +137,7 @@
             "config": {
                 "home": "/Users/honda/Library/Java/JavaVirtualMachines/openjdk-17.0.1/Contents/Home",
                 "options": [
-                    "-Duser.dir=/Users/honda/Documents/GitHub/basicsScala"
+                    "-Duser.dir=/Users/honda/Documents/GitHub/basicsScala-1"
                 ]
             },
             "mainClass": [

@@ -2,19 +2,19 @@
     "version": "1.4.0",
     "project": {
         "name": "root-test",
-        "directory": "/Users/honda/Documents/GitHub/basicsScala",
-        "workspaceDir": "/Users/honda/Documents/GitHub/basicsScala",
+        "directory": "/Users/honda/Documents/GitHub/basicsScala-1",
+        "workspaceDir": "/Users/honda/Documents/GitHub/basicsScala-1",
         "sources": [
-            "/Users/honda/Documents/GitHub/basicsScala/src/test/scala",
-            "/Users/honda/Documents/GitHub/basicsScala/src/test/scala-3",
-            "/Users/honda/Documents/GitHub/basicsScala/src/test/java",
-            "/Users/honda/Documents/GitHub/basicsScala/target/scala-3.1.1/src_managed/test"
+            "/Users/honda/Documents/GitHub/basicsScala-1/src/test/scala",
+            "/Users/honda/Documents/GitHub/basicsScala-1/src/test/scala-3",
+            "/Users/honda/Documents/GitHub/basicsScala-1/src/test/java",
+            "/Users/honda/Documents/GitHub/basicsScala-1/target/scala-3.1.1/src_managed/test"
         ],
         "dependencies": [
             "root"
         ],
         "classpath": [
-            "/Users/honda/Documents/GitHub/basicsScala/.bloop/root/scala-3/classes",
+            "/Users/honda/Documents/GitHub/basicsScala-1/.bloop/root/scala-3/classes",
             "/Users/honda/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.1/scala3-library_3-3.1.1.jar",
             "/Users/honda/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/munit_3/0.7.29/munit_3-0.7.29.jar",
             "/Users/honda/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
@@ -23,11 +23,11 @@
             "/Users/honda/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
             "/Users/honda/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
         ],
-        "out": "/Users/honda/Documents/GitHub/basicsScala/.bloop/root",
-        "classesDir": "/Users/honda/Documents/GitHub/basicsScala/.bloop/root/scala-3/test-classes",
+        "out": "/Users/honda/Documents/GitHub/basicsScala-1/.bloop/root",
+        "classesDir": "/Users/honda/Documents/GitHub/basicsScala-1/.bloop/root/scala-3/test-classes",
         "resources": [
-            "/Users/honda/Documents/GitHub/basicsScala/src/test/resources",
-            "/Users/honda/Documents/GitHub/basicsScala/target/scala-3.1.1/resource_managed/test"
+            "/Users/honda/Documents/GitHub/basicsScala-1/src/test/resources",
+            "/Users/honda/Documents/GitHub/basicsScala-1/target/scala-3.1.1/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -143,7 +143,7 @@
             "config": {
                 "home": "/Users/honda/Library/Java/JavaVirtualMachines/openjdk-17.0.1/Contents/Home",
                 "options": [
-                    "-Duser.dir=/Users/honda/Documents/GitHub/basicsScala"
+                    "-Duser.dir=/Users/honda/Documents/GitHub/basicsScala-1"
                 ]
             },
             "mainClass": [

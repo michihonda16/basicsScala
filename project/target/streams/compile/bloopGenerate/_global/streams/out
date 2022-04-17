@@ -1,4 +1,4 @@
-[debug] [basicsscala-build] Classpath dependencies List()
-[debug] [basicsscala-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'basicsscala-build' to '/Users/honda/Documents/GitHub/basicsScala/project/.bloop/basicsscala-build.json'
-[success] Generated .bloop/basicsscala-build.json
+[debug] [basicsscala-1-build] Classpath dependencies List()
+[debug] [basicsscala-1-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'basicsscala-1-build' to '/Users/honda/Documents/GitHub/basicsScala-1/project/.bloop/basicsscala-1-build.json'
+[success] Generated .bloop/basicsscala-1-build.json
