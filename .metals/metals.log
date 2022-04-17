@@ -2,3 +2,42 @@
 2022.04.17 21:17:13 INFO  logging to file /Users/honda/Documents/GitHub/basicsScala/.metals/metals.log
 2022.04.17 21:17:13 INFO  Started: Metals version 0.11.2 in workspace '/Users/honda/Documents/GitHub/basicsScala' for client Visual Studio Code 1.66.1.
 2022.04.17 21:17:13 INFO  Parse release: 17.0.1
+2022.04.17 21:17:20 INFO  time: initialize in 6.38s
+2022.04.17 21:17:21 WARN  Build server is not auto-connectable.
+2022.04.17 21:17:41 INFO  no build target found for /Users/honda/Documents/GitHub/basicsScala/src/basics.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+[31merror[39m: src/basics.worksheet.sc:79:1: 
+Greeter is already defined as class Greeter
+trait Greeter {
+^
+2022.04.17 21:17:41 INFO  running '/Users/honda/Library/Java/JavaVirtualMachines/openjdk-17.0.1/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/_b/hrkvdycn7db7dw26w78xv6gm0000gn/T/metals10031326581841312966/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.04.17 21:17:48 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 17.0.1)
+2022.04.17 21:17:51 INFO  time: code lens generation in 21s
+2022.04.17 21:17:51 INFO  time: code lens generation in 10s
+2022.04.17 21:17:53 INFO  no build target found for /Users/honda/Documents/GitHub/basicsScala/src/basics.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.17 21:17:53 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 25s
+2022.04.17 21:17:56 INFO  [info] loading settings for project basicsscala-build-build from metals.sbt ...
+2022.04.17 21:17:59 INFO  [info] loading project definition from /Users/honda/Documents/GitHub/basicsScala/project/project
+2022.04.17 21:18:06 INFO  [info] loading settings for project basicsscala-build from metals.sbt ...
+2022.04.17 21:18:06 INFO  [info] loading project definition from /Users/honda/Documents/GitHub/basicsScala/project
+2022.04.17 21:18:12 INFO  [success] Generated .bloop/basicsscala-build.json
+2022.04.17 21:18:12 INFO  [warn] Removed stale /Users/honda/Documents/GitHub/basicsScala/project/.bloop/scala3-build.json
+2022.04.17 21:18:12 INFO  [success] Total time: 6 s, completed Apr 17, 2022, 9:18:12 PM
+2022.04.17 21:18:16 INFO  [info] loading settings for project root from build.sbt ...
+2022.04.17 21:18:16 INFO  [info] set current project to scala3 (in build file:/Users/honda/Documents/GitHub/basicsScala/)
+2022.04.17 21:18:18 INFO  [success] Generated .bloop/root.json
+2022.04.17 21:18:18 INFO  [success] Generated .bloop/root-test.json
+2022.04.17 21:18:18 INFO  [success] Total time: 1 s, completed Apr 17, 2022, 9:18:18 PM
+2022.04.17 21:18:18 INFO  time: ran 'sbt bloopInstall' in 36s
+2022.04.17 21:18:18 INFO  Attempting to connect to the build server...
+2022.04.17 21:18:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/honda/Documents/GitHub/basicsScala/.metals/bsp.trace.json or /Users/honda/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.04.17 21:18:19 INFO  Attempting to connect to the build server...
+2022.04.17 21:18:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/honda/Documents/GitHub/basicsScala/project/.metals/bsp.trace.json or /Users/honda/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.04.17 21:18:19 INFO  time: Connected to build server in 1.05s
+2022.04.17 21:18:19 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.17 21:18:19 INFO  time: Imported build in 0.11s
+2022.04.17 21:18:32 INFO  time: indexed workspace in 13s
+[31merror[39m: src/basics.worksheet.sc:79:1: 
+Greeter is already defined as class Greeter
+trait Greeter {
+^
+2022.04.17 21:18:35 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 2.67s
