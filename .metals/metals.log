@@ -81,3 +81,15 @@ trait Greeter {
 2022.04.17 21:27:23 INFO  time: indexed workspace in 2.97s
 Apr 17, 2022 9:53:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2022.04.18 00:51:16 INFO  time: code lens generation in 6.15s
+2022.04.18 00:51:16 INFO  time: code lens generation in 6.47s
+[31merror[39m: src/basics.worksheet.sc:79:1: 
+Greeter is already defined as class Greeter
+trait Greeter {
+^
+2022.04.18 00:51:56 INFO  no build target found for /Users/honda/Documents/GitHub/basicsScala-1/src/basics.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.18 00:51:56 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 52s
+Apr 18, 2022 12:57:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+Apr 18, 2022 12:57:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
