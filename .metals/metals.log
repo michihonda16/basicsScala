@@ -93,3 +93,58 @@ Apr 18, 2022 12:57:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 25
 Apr 18, 2022 12:57:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 39
+2022.04.18 09:57:42 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 6.05s
+2022.04.18 10:16:57 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 3.19s
+Apr 18, 2022 11:26:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 227
+[31merror[39m: src/basics.worksheet.sc:87:38: = expected but identifier found
+    override def greet(name: String) unit = {
+                                     ^^^^
+2022.04.18 23:32:53 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 1.32s
+[31merror[39m: src/basics.worksheet.sc:87:38: = expected but identifier found
+    override def greet(name: String) unit = {
+                                     ^^^^
+2022.04.18 23:32:53 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 0.87s
+[31merror[39m: src/basics.worksheet.sc:87:38: = expected but identifier found
+    override def greet(name: String) unit = {
+                                     ^^^^
+2022.04.18 23:32:55 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 0.86s
+[31merror[39m: src/basics.worksheet.sc:87:38: = expected but identifier found
+    override def greet(name: String) unit = {
+                                     ^^^^
+2022.04.18 23:32:55 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 0.57s
+[31merror[39m: src/basics.worksheet.sc:87:38: = expected but identifier found
+    override def greet(name: String) unit = {
+                                     ^^^^
+2022.04.18 23:32:56 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 0.58s
+[31merror[39m: src/basics.worksheet.sc:95:24: 
+Not found: type CustomizableGreeter
+val customGreeter= new CustomizableGreeter("How are you, ", "?")
+                       ^^^^^^^^^^^^^^^^^^^
+[31merror[39m: src/basics.worksheet.sc:92:5: 
+Double definition:
+val greeter: App.this.Greeter in class App at line 83 and
+val greeter: App.this.DefaultGreeter in class App at line 177
+
+val greeter = new DefaultGreeter()
+    ^
+2022.04.18 23:33:42 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 1.32s
+[31merror[39m: src/basics.worksheet.sc:95:24: 
+Not found: type CustomizableGreeter
+val customGreeter= new CustomizableGreeter("How are you, ", "?")
+                       ^^^^^^^^^^^^^^^^^^^
+2022.04.18 23:34:08 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 0.81s
+2022.04.18 23:34:35 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 2.27s
+[31merror[39m: src/basics.worksheet.sc:96:1: 
+Not found: customGreeter
+customGreeter.greet("Scala developer")
+^^^^^^^^^^^^^
+2022.04.18 23:34:42 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 1s
+[31merror[39m: src/basics.worksheet.sc:96:1: 
+Not found: customGreeter
+customGreeter.greet("Scala developer")
+^^^^^^^^^^^^^
+2022.04.18 23:35:12 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 0.87s
+2022.04.18 23:35:18 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 1.51s
+2022.04.18 23:39:39 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 1.93s
+2022.04.18 23:41:10 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 2.33s
