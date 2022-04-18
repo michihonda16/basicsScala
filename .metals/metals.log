@@ -148,3 +148,17 @@ customGreeter.greet("Scala developer")
 2022.04.18 23:35:18 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 1.51s
 2022.04.18 23:39:39 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 1.93s
 2022.04.18 23:41:10 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 2.33s
+2022.04.18 23:52:34 INFO  no build target found for /Users/honda/Documents/GitHub/basicsScala-1/src/classes.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.18 23:52:34 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 6.54s
+2022.04.18 23:54:37 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.37s
+[31merror[39m: src/classes.worksheet.sc:1:1: 
+Not found: aaa
+aaa
+^^^
+2022.04.18 23:54:44 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.12s
+2022.04.18 23:54:47 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/classes.worksheet.sc:1:1: stale mdoc error:
+Not found: aaa
+aaa
+^^^
+2022.04.18 23:55:09 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.42s
+2022.04.18 23:55:28 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.51s
