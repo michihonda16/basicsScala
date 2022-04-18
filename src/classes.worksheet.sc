@@ -22,5 +22,7 @@ val constructor1 = new Constructor(1)
 println(constructor1.x)
 println(constructor1.y)
 
-class ()
+val constructor2 = new Constructor(y = 2)
+println(constructor2)
+
 
