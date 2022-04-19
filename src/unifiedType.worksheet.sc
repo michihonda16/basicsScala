@@ -8,7 +8,8 @@ val list : List[Any] = List(
 
 list.foreach(element => println(element))
 
-val x : Long = 987654321val y  = (x).toFloat
+val x : Long = 987654321
+val y  = (x).toFloat
 val face : Char = 'a'
 val number : Int = face
 
