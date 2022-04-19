@@ -4559,3 +4559,25 @@ val y  = .toFloat(x)
          ^
 2022.04.19 16:32:52 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.31s
 2022.04.19 16:34:15 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.61s
+Apr 19, 2022 10:14:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 19, 2022 10:14:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 19, 2022 10:15:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 19, 2022 10:15:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 19, 2022 10:15:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 19, 2022 10:15:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 19, 2022 10:15:28 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 19, 2022 10:15:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.04.19 22:27:13 WARN  no build target for: /Users/honda/Documents/GitHub/basicsScala-1/src/Main.scala
+2022.04.19 22:27:22 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 4.33s
+[31merror[39m: src/unifiedType.worksheet.sc:11:16: Invalid literal number
+val x : Long = 987654321val y  = (x).toFloat
+               ^
+2022.04.19 22:27:23 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.51s
