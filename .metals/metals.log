@@ -4743,3 +4743,23 @@ java.nio.channels.ClosedByInterruptException
 2022.04.19 23:15:53 INFO  time: Connected to build server in 1.11s
 2022.04.19 23:15:53 INFO  Connected to Build server: Bloop v1.4.13
 2022.04.19 23:15:53 INFO  time: Imported build in 0.14s
+2022.04.19 23:16:06 INFO  no build target found for /Users/honda/Documents/GitHub/basicsScala-1/src/namedArguments.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.19 23:16:07 INFO  time: indexed workspace in 13s
+2022.04.19 23:16:16 INFO  time: code lens generation in 8.43s
+2022.04.19 23:16:16 INFO  time: code lens generation in 15s
+[31merror[39m: src/namedArguments.worksheet.sc:7:1: 
+missing argument for parameter first of method printName in class App: (first: String, last: String): Unit
+printName(last = "smith", "John")
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.04.19 23:16:23 INFO  no build target found for /Users/honda/Documents/GitHub/basicsScala-1/src/namedArguments.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.19 23:16:24 INFO  time: evaluated worksheet 'namedArguments.worksheet.sc' in 16s
+[31merror[39m: src/namedArguments.worksheet.sc:7:1: 
+missing argument for parameter first of method printName in class App: (first: String, last: String): Unit
+printName(last = "smith", "John")
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.04.19 23:16:25 INFO  time: evaluated worksheet 'namedArguments.worksheet.sc' in 1.27s
+2022.04.19 23:17:34 INFO  time: evaluated worksheet 'namedArguments.worksheet.sc' in 4.06s
+Apr 19, 2022 11:17:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+2022.04.19 23:17:35 INFO  time: evaluated worksheet 'namedArguments.worksheet.sc' in 1.29s
+2022.04.19 23:17:37 INFO  time: evaluated worksheet 'namedArguments.worksheet.sc' in 1.24s
