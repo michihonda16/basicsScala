@@ -4460,3 +4460,9 @@ val constructor2 = new Constructor(y = 2)
 2022.04.19 01:06:43 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.61s
 2022.04.19 01:11:12 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.62s
 2022.04.19 01:11:30 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.49s
+2022.04.19 10:16:42 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 2.2s
+2022.04.19 10:16:42 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.87s
+2022.04.19 10:16:44 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.99s
+2022.04.19 10:16:44 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.52s
+2022.04.19 10:16:46 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 1.3s
+2022.04.19 10:16:46 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.62s
