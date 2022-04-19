@@ -29,8 +29,9 @@ println(constructor1.x)
 println(constructor1.y)
 println(constructor1)
 
-val constructor2 = new Point(y = 2)
+val constructor2 = new Point(y = 5)
 println(constructor2)
+
 
 
 
