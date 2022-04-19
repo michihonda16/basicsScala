@@ -4763,3 +4763,32 @@ Apr 19, 2022 11:17:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 43
 2022.04.19 23:17:35 INFO  time: evaluated worksheet 'namedArguments.worksheet.sc' in 1.29s
 2022.04.19 23:17:37 INFO  time: evaluated worksheet 'namedArguments.worksheet.sc' in 1.24s
+2022.04.19 23:18:37 INFO  no build target found for /Users/honda/Documents/GitHub/basicsScala-1/src/basics.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.19 23:18:37 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 8.19s
+2022.04.19 23:18:47 INFO  no build target found for /Users/honda/Documents/GitHub/basicsScala-1/src/traits.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.19 23:18:47 INFO  time: evaluated worksheet 'traits.worksheet.sc' in 4.62s
+Apr 19, 2022 11:20:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 19, 2022 11:21:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 248
+Apr 19, 2022 11:27:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1078
+2022.04.20 00:43:54 INFO  time: evaluated worksheet 'basics.worksheet.sc' in 5.88s
+Apr 20, 2022 12:44:10 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[31merror[39m: src/traits.worksheet.sc:10:33: 
+Found:    Unit
+Required: Int
+    override def next() : Int = {
+                                ^
+2022.04.20 00:44:13 INFO  time: evaluated worksheet 'traits.worksheet.sc' in 1.11s
+Apr 20, 2022 12:46:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1542
+[31merror[39m: src/traits.worksheet.sc:10:33: 
+Found:    Unit
+Required: Int
+    override def next() : Int = {
+                                ^
+2022.04.20 00:46:43 INFO  time: evaluated worksheet 'traits.worksheet.sc' in 1.5s
+2022.04.20 00:48:30 INFO  time: code lens generation in 8.14s
+2022.04.20 00:48:30 INFO  time: code lens generation in 6.68s
