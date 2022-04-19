@@ -1,4 +1,3 @@
-import java.lang.reflect.Constructor
 class User 
 val user1 = new User
 

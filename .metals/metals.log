@@ -4466,3 +4466,96 @@ val constructor2 = new Constructor(y = 2)
 2022.04.19 10:16:44 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.52s
 2022.04.19 10:16:46 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 1.3s
 2022.04.19 10:16:46 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.62s
+2022.04.19 16:04:13 WARN  no build target for: /Users/honda/Documents/GitHub/basicsScala-1/src/Main.scala
+2022.04.19 16:08:05 INFO  no build target found for /Users/honda/Documents/GitHub/basicsScala-1/src/unifiedType.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.19 16:08:05 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 4.39s
+Apr 19, 2022 4:24:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5209
+Apr 19, 2022 4:24:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 14 out of bounds for length 14
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 14 out of bounds for length 14
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 14 out of bounds for length 14
+	at scala.meta.internal.metals.formatting.MultilineString.doubleQuoteNotClosed(MultilineString.scala:229)
+	at scala.meta.internal.metals.formatting.MultilineString.contribute(MultilineString.scala:385)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$2(OnTypeFormattingProvider.scala:68)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.loop$1(MetalsEnrichments.scala:228)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.acceptFirst(MetalsEnrichments.scala:236)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$1(OnTypeFormattingProvider.scala:67)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.format(OnTypeFormattingProvider.scala:53)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onTypeFormatting$1(MetalsLanguageServer.scala:1486)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[31merror[39m: src/unifiedType.worksheet.sc:13:17: unclosed character literal
+val face : Char '😄'
+                ^
+2022.04.19 16:24:29 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.66s
+[31merror[39m: src/unifiedType.worksheet.sc:13:17: unclosed character literal
+val face : Char '😄'
+                ^
+2022.04.19 16:24:53 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.5s
+[31merror[39m: src/unifiedType.worksheet.sc:13:17: unclosed character literal
+val face : Char '😄'
+                ^
+2022.04.19 16:24:53 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.28s
+[31merror[39m: src/unifiedType.worksheet.sc:13:17: unclosed character literal
+val face : Char '😄'
+                ^
+2022.04.19 16:24:53 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.31s
+[31merror[39m: src/unifiedType.worksheet.sc:13:17: unclosed character literal
+val face : Char '😄'
+                ^
+2022.04.19 16:24:53 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.35s
+[31merror[39m: src/unifiedType.worksheet.sc:13:19: unclosed character literal
+val face : Char = '😄'
+                  ^
+2022.04.19 16:25:04 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.35s
+[31merror[39m: src/unifiedType.worksheet.sc:18:16: 
+Found:    (App.this.m : Float)
+Required: Long
+val n : Long = m
+               ^
+2022.04.19 16:29:02 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.42s
+[33mwarning[39m: src/unifiedType.worksheet.sc:12:17: 
+method long2float in object Long is deprecated since 2.13.1: Implicit conversion from Long to Float is dangerous because it loses precision. Write `.toFloat` instead.
+val y : Float = x
+                ^
+2022.04.19 16:29:54 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.74s
+[31merror[39m: src/unifiedType.worksheet.sc:12:9: 
+Not found: type toFloat
+val y : toFloat = x
+        ^^^^^^^
+2022.04.19 16:30:42 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.2s
+[31merror[39m: src/unifiedType.worksheet.sc:12:10: 
+Not found: toFloat
+val y  = toFloat(x)
+         ^^^^^^^
+2022.04.19 16:31:38 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.21s
+[33mwarning[39m: src/unifiedType.worksheet.sc:12:17: 
+method long2float in object Long is deprecated since 2.13.1: Implicit conversion from Long to Float is dangerous because it loses precision. Write `.toFloat` instead.
+val y : Float = x
+                ^
+2022.04.19 16:32:20 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.55s
+[31merror[39m: src/unifiedType.worksheet.sc:12:10: illegal start of simple expression
+val y  = .toFloat(x)
+         ^
+2022.04.19 16:32:52 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.31s
+2022.04.19 16:34:15 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 0.61s
