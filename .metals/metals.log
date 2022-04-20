@@ -8100,3 +8100,380 @@ Caused by: java.lang.IllegalArgumentException: 4 is not a valid line number, all
 ^
 2022.04.20 22:54:08 INFO  time: evaluated worksheet 'classCompositiionWIthMixins.worksheet.sc' in 0.69s
 2022.04.20 22:59:20 INFO  time: evaluated worksheet 'classCompositiionWIthMixins.worksheet.sc' in 0.85s
+2022.04.20 23:02:29 INFO  no build target found for /Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.20 23:02:29 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 6.77s
+Apr 20, 2022 11:04:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 2 is not a valid line number, allowed [0..1]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+2022.04.20 23:05:42 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.79s
+Apr 21, 2022 12:21:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9072
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:5:5: 
+Double definition:
+val salaries: Seq[Int] in class App at line 7 and
+val salaries: Seq[Int] in class App at line 19
+
+val salaries = Seq(20000, 70000, 40000)
+    ^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:6:5: 
+Double definition:
+val newSalaries: Seq[Int] in class App at line 15 and
+val newSalaries: Seq[Int] in class App at line 23
+
+val newSalaries = salaries.map(x => x * 2)
+    ^
+2022.04.21 00:22:31 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.51s
+2022.04.21 00:22:42 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:5:5: stale mdoc error:
+Double definition:
+val salaries: Seq[Int] in class App at line 7 and
+val salaries: Seq[Int] in class App at line 19
+
+val salaries = Seq(20000, 70000, 40000)
+    ^
+2022.04.21 00:22:42 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:6:5: stale mdoc error:
+Double definition:
+val newSalaries: Seq[Int] in class App at line 15 and
+val newSalaries: Seq[Int] in class App at line 23
+
+val newSalaries = salaries.map(x => x * 2)
+    ^
+2022.04.21 00:22:42 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:5:5: stale mdoc error:
+Double definition:
+val salaries: Seq[Int] in class App at line 7 and
+val salaries: Seq[Int] in class App at line 19
+
+val salaries = Seq(20000, 70000, 40000)
+    ^
+2022.04.21 00:22:42 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:6:5: stale mdoc error:
+Double definition:
+val newSalaries: Seq[Int] in class App at line 15 and
+val newSalaries: Seq[Int] in class App at line 23
+
+val newSalaries = salaries.map(x => x * 2)
+    ^
+2022.04.21 00:22:45 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:5:5: stale mdoc error:
+Double definition:
+val salaries: Seq[Int] in class App at line 7 and
+val salaries: Seq[Int] in class App at line 19
+
+val salaries = Seq(20000, 70000, 40000)
+    ^
+2022.04.21 00:22:45 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:6:5: stale mdoc error:
+Double definition:
+val newSalaries: Seq[Int] in class App at line 15 and
+val newSalaries: Seq[Int] in class App at line 23
+
+val newSalaries = salaries.map(x => x * 2)
+    ^
+2022.04.21 00:22:45 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:5:5: stale mdoc error:
+Double definition:
+val salaries: Seq[Int] in class App at line 7 and
+val salaries: Seq[Int] in class App at line 19
+
+val salaries = Seq(20000, 70000, 40000)
+    ^
+2022.04.21 00:22:45 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:6:5: stale mdoc error:
+Double definition:
+val newSalaries: Seq[Int] in class App at line 15 and
+val newSalaries: Seq[Int] in class App at line 23
+
+val newSalaries = salaries.map(x => x * 2)
+    ^
+2022.04.21 00:22:46 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:5:5: stale mdoc error:
+Double definition:
+val salaries: Seq[Int] in class App at line 7 and
+val salaries: Seq[Int] in class App at line 19
+
+val salaries = Seq(20000, 70000, 40000)
+    ^
+2022.04.21 00:22:46 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:6:5: stale mdoc error:
+Double definition:
+val newSalaries: Seq[Int] in class App at line 15 and
+val newSalaries: Seq[Int] in class App at line 23
+
+val newSalaries = salaries.map(x => x * 2)
+    ^
+2022.04.21 00:22:46 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:5:5: stale mdoc error:
+Double definition:
+val salaries: Seq[Int] in class App at line 7 and
+val salaries: Seq[Int] in class App at line 19
+
+val salaries = Seq(20000, 70000, 40000)
+    ^
+2022.04.21 00:22:46 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:6:5: stale mdoc error:
+Double definition:
+val newSalaries: Seq[Int] in class App at line 15 and
+val newSalaries: Seq[Int] in class App at line 23
+
+val newSalaries = salaries.map(x => x * 2)
+    ^
+2022.04.21 00:22:46 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:5:5: stale mdoc error:
+Double definition:
+val salaries: Seq[Int] in class App at line 7 and
+val salaries: Seq[Int] in class App at line 19
+
+val salaries = Seq(20000, 70000, 40000)
+    ^
+2022.04.21 00:22:46 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:6:5: stale mdoc error:
+Double definition:
+val newSalaries: Seq[Int] in class App at line 15 and
+val newSalaries: Seq[Int] in class App at line 23
+
+val newSalaries = salaries.map(x => x * 2)
+    ^
+2022.04.21 00:22:46 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:5:5: stale mdoc error:
+Double definition:
+val salaries: Seq[Int] in class App at line 7 and
+val salaries: Seq[Int] in class App at line 19
+
+val salaries = Seq(20000, 70000, 40000)
+    ^
+2022.04.21 00:22:46 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:6:5: stale mdoc error:
+Double definition:
+val newSalaries: Seq[Int] in class App at line 15 and
+val newSalaries: Seq[Int] in class App at line 23
+
+val newSalaries = salaries.map(x => x * 2)
+    ^
+2022.04.21 00:22:46 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:5:5: stale mdoc error:
+Double definition:
+val salaries: Seq[Int] in class App at line 7 and
+val salaries: Seq[Int] in class App at line 19
+
+val salaries = Seq(20000, 70000, 40000)
+    ^
+2022.04.21 00:22:46 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:6:5: stale mdoc error:
+Double definition:
+val newSalaries: Seq[Int] in class App at line 15 and
+val newSalaries: Seq[Int] in class App at line 23
+
+val newSalaries = salaries.map(x => x * 2)
+    ^
+2022.04.21 00:22:46 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:5:5: stale mdoc error:
+Double definition:
+val salaries: Seq[Int] in class App at line 7 and
+val salaries: Seq[Int] in class App at line 19
+
+val salaries = Seq(20000, 70000, 40000)
+    ^
+2022.04.21 00:22:46 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:6:5: stale mdoc error:
+Double definition:
+val newSalaries: Seq[Int] in class App at line 15 and
+val newSalaries: Seq[Int] in class App at line 23
+
+val newSalaries = salaries.map(x => x * 2)
+    ^
+2022.04.21 00:22:47 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:5:5: stale mdoc error:
+Double definition:
+val salaries: Seq[Int] in class App at line 7 and
+val salaries: Seq[Int] in class App at line 19
+
+val salaries = Seq(20000, 70000, 40000)
+    ^
+2022.04.21 00:22:47 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:6:5: stale mdoc error:
+Double definition:
+val newSalaries: Seq[Int] in class App at line 15 and
+val newSalaries: Seq[Int] in class App at line 23
+
+val newSalaries = salaries.map(x => x * 2)
+    ^
+2022.04.21 00:22:46 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:5:5: stale mdoc error:
+Double definition:
+val salaries: Seq[Int] in class App at line 7 and
+val salaries: Seq[Int] in class App at line 19
+
+val salaries = Seq(20000, 70000, 40000)
+    ^
+2022.04.21 00:22:46 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/higherOrderFunctions.worksheet.sc:6:5: stale mdoc error:
+Double definition:
+val newSalaries: Seq[Int] in class App at line 15 and
+val newSalaries: Seq[Int] in class App at line 23
+
+val newSalaries = salaries.map(x => x * 2)
+    ^
+2022.04.21 00:23:19 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.82s
+2022.04.21 00:25:52 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.64s
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:13:52: 
+Not found: type double
+case class WeeklyWeatherForecast(temperatures: Seq[double]){
+                                                   ^^^^^^
+2022.04.21 00:29:35 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.32s
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:13:52: 
+Not found: type double
+case class WeeklyWeatherForecast(temperatures: Seq[double]){
+                                                   ^^^^^^
+2022.04.21 00:29:35 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.21s
+Apr 21, 2022 12:35:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10901
+2022.04.21 00:39:22 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.82s
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:32:20: 
+Not found: type hugePromotion
+val mySalary = new hugePromotion
+                   ^^^^^^^^^^^^^
+2022.04.21 00:42:25 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.43s
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:32:20: 
+Not found: type hugePromotion
+val mySalary = new hugePromotion(100)
+                   ^^^^^^^^^^^^^
+2022.04.21 00:43:01 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.4s
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:18:50: 
+Found:    (15 : Int)
+Required: Seq[Double]
+val temperatureToday = new WeeklyWeatherForecast(15)
+                                                 ^^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:34:20: 
+Not found: type hugePromotion
+val mySalary = new hugePromotion(100)
+                   ^^^^^^^^^^^^^
+2022.04.21 00:45:59 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.46s
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:18:50: 
+Found:    (Int, Int)
+Required: Seq[Double]
+val temperatureToday = new WeeklyWeatherForecast(15, 20)
+                                                 ^^^^^^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:34:20: 
+Not found: type hugePromotion
+val mySalary = new hugePromotion(100)
+                   ^^^^^^^^^^^^^
+2022.04.21 00:46:18 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.54s
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:18:50: 
+Found:    (Int, Int)
+Required: Seq[Double]
+val temperatureToday = new WeeklyWeatherForecast(1500, 2000)
+                                                 ^^^^^^^^^^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:34:20: 
+Not found: type hugePromotion
+val mySalary = new hugePromotion(100)
+                   ^^^^^^^^^^^^^
+2022.04.21 00:46:31 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.58s
+[31merror[39m: src/classes.worksheet.sc:21:9: 
+error overriding method toString in class Any of type (): String;
+  method toString of type => String needs `override` modifier
+    def toString : String = 
+        ^
+2022.04.21 00:55:53 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.87s
+2022.04.21 00:56:24 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 0.79s
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:19:50: 
+Found:    (Int, Int)
+Required: Seq[Double]
+val temperatureToday = new WeeklyWeatherForecast(1500, 2000)
+                                                 ^^^^^^^^^^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:35:20: 
+Not found: type hugePromotion
+val mySalary = new hugePromotion(100)
+                   ^^^^^^^^^^^^^
+2022.04.21 01:04:36 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.87s
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:19:50: 
+Found:    (Int, Int)
+Required: Seq[Double]
+val temperatureToday = new WeeklyWeatherForecast(1500, 2000)
+                                                 ^^^^^^^^^^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:35:20: 
+Not found: type hugePromotion
+val mySalary = new hugePromotion(100)
+                   ^^^^^^^^^^^^^
+2022.04.21 01:04:54 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.33s
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:32:20: 
+Not found: type hugePromotion
+val mySalary = new hugePromotion(100)
+                   ^^^^^^^^^^^^^
+2022.04.21 01:05:10 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.3s
+2022.04.21 01:05:21 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 1.04s
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:35:89: 
+Missing type parameter for List
+    private def Promotion(salaries: List[Double], promotionFunction: Double => Double): List =
+                                                                                        ^^^^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:39:9: 
+Not found: promotion
+        promotion(salaries, salary => salary * 1.1)
+        ^^^^^^^^^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:42:9: 
+Not found: promotion
+        promotion(salaries, salary => Math.log(salary))
+        ^^^^^^^^^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:45:9: 
+Not found: promotion
+        promotion(salaries : List[Double] => salary * salary)
+        ^^^^^^^^^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:45:53: 
+Not found: type *
+        promotion(salaries : List[Double] => salary * salary)
+                                                    ^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:45:19: 
+Found:    (salaries : List[Double])
+Required: List[Double] => <error Not found: type *>
+        promotion(salaries : List[Double] => salary * salary)
+                  ^^^^^^^^
+2022.04.21 01:30:10 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.57s
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:39:9: 
+Not found: promotion
+        promotion(salaries, salary => salary * 1.1)
+        ^^^^^^^^^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:42:9: 
+Not found: promotion
+        promotion(salaries, salary => Math.log(salary))
+        ^^^^^^^^^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:45:9: 
+Not found: promotion
+        promotion(salaries : List[Double] => salary * salary)
+        ^^^^^^^^^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:45:53: 
+Not found: type *
+        promotion(salaries : List[Double] => salary * salary)
+                                                    ^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:45:19: 
+Found:    (salaries : List[Double])
+Required: List[Double] => <error Not found: type *>
+        promotion(salaries : List[Double] => salary * salary)
+                  ^^^^^^^^
+2022.04.21 01:30:44 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.43s
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:45:53: 
+Not found: type *
+        Promotion(salaries : List[Double] => salary * salary)
+                                                    ^
+[31merror[39m: src/higherOrderFunctions.worksheet.sc:45:19: 
+Found:    (salaries : List[Double])
+Required: List[Double] => <error Not found: type *>
+        Promotion(salaries : List[Double] => salary * salary)
+                  ^^^^^^^^
+2022.04.21 01:31:01 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.43s
+2022.04.21 01:31:38 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 0.85s
+2022.04.21 01:35:28 INFO  time: evaluated worksheet 'higherOrderFunctions.worksheet.sc' in 2.1s
