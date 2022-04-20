@@ -4803,3 +4803,8 @@ Apr 20, 2022 9:32:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 2567
 2022.04.20 09:38:00 INFO  time: evaluated worksheet 'traits.worksheet.sc' in 1.6s
 2022.04.20 09:38:05 INFO  time: evaluated worksheet 'traits.worksheet.sc' in 0.91s
+2022.04.20 09:40:38 WARN  no build target for: /Users/honda/Documents/GitHub/basicsScala-1/src/Main.scala
+2022.04.20 11:20:00 INFO  no build target found for /Users/honda/Documents/GitHub/basicsScala-1/src/Tuple.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.20 11:20:00 INFO  time: evaluated worksheet 'Tuple.worksheet.sc' in 7.08s
+2022.04.20 11:20:21 INFO  no build target found for /Users/honda/Documents/GitHub/basicsScala-1/src/toples.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.20 11:20:21 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 5.75s
