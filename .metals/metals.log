@@ -4810,3 +4810,4 @@ WARNING: Unmatched cancel notification for request id 2567
 2022.04.20 11:20:21 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 5.75s
 Apr 20, 2022 12:18:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2022.04.20 13:10:31 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 1.89s
