@@ -20,3 +20,27 @@ val iterator = new IntIterator(10)
 iterator.next()
 iterator.next()
 
+
+import scala.collection.mutable. ArrayBuffer
+
+trait Pet{
+    val name: String
+}
+
+class Cat(val name: String) extends Pet
+class Dog(val name: String) extends Pet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

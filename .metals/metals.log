@@ -4798,3 +4798,8 @@ Required: Int
 2022.04.20 00:49:20 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 11s
 2022.04.20 09:28:25 INFO  time: evaluated worksheet 'traits.worksheet.sc' in 1.03s
 2022.04.20 09:28:27 INFO  time: evaluated worksheet 'traits.worksheet.sc' in 0.72s
+2022.04.20 09:29:51 INFO  time: evaluated worksheet 'traits.worksheet.sc' in 1.57s
+Apr 20, 2022 9:32:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2567
+2022.04.20 09:38:00 INFO  time: evaluated worksheet 'traits.worksheet.sc' in 1.6s
+2022.04.20 09:38:05 INFO  time: evaluated worksheet 'traits.worksheet.sc' in 0.91s
