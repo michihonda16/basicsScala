@@ -17,12 +17,7 @@ planets.foreach{
         println(s"Our planet is $distance million kilometers from the the sun")
     case(planets_name, distance) =>
         println(s"$planets_name is $distance million kilometers from the the sun")
-        println(s"$planets_name is $distance million kilometers from the the sun")
-        println(s"$planets_name is $distance million kilometers from the the sun")
-        println(s"$planets_name is $distance million kilometers from the the sun")
-
 }
-
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////
