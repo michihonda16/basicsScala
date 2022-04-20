@@ -4811,3 +4811,64 @@ WARNING: Unmatched cancel notification for request id 2567
 Apr 20, 2022 12:18:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
 2022.04.20 13:10:31 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 1.89s
+2022.04.20 13:12:53 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 0.66s
+2022.04.20 13:14:22 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 1.17s
+[31merror[39m: src/toples.worksheet.sc:12:1: 
+Not found: planet
+planet.foreach{
+^^^^^^
+2022.04.20 13:20:38 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 0.52s
+[31merror[39m: src/toples.worksheet.sc:16:29: 
+Not found: distance
+        println(s"$name is $distance million kilometers from the the sun")
+                            ^^^^^^^^
+2022.04.20 13:20:47 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 0.37s
+[31merror[39m: src/toples.worksheet.sc:19:29: 
+Not found: distance
+        println(s"$name is $distance million kilometers from the the sun")
+                            ^^^^^^^^
+2022.04.20 13:23:15 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 0.6s
+[31merror[39m: src/toples.worksheet.sc:19:29: 
+Not found: distance
+        println(s"$name is $distance million kilometers from the the sun")
+                            ^^^^^^^^
+2022.04.20 13:23:32 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 0.4s
+[31merror[39m: src/toples.worksheet.sc:19:29: 
+Not found: distance
+        println(s"$name is $distance million kilometers from the the sun")
+                            ^^^^^^^^
+2022.04.20 13:23:46 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 0.52s
+[31merror[39m: src/toples.worksheet.sc:19:29: 
+Not found: distance
+        println(s"$name is $distance million kilometers from the the sun")
+                            ^^^^^^^^
+2022.04.20 13:24:16 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 0.34s
+2022.04.20 13:24:29 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/toples.worksheet.sc:19:29: stale mdoc error:
+Not found: distance
+        println(s"$name is $distance million kilometers from the the sun")
+                            ^^^^^^^^
+2022.04.20 13:24:29 INFO  file:///Users/honda/Documents/GitHub/basicsScala-1/src/toples.worksheet.sc:19:29: stale mdoc error:
+Not found: distance
+        println(s"$name is $distance million kilometers from the the sun")
+                            ^^^^^^^^
+[31merror[39m: src/toples.worksheet.sc:19:28: 
+Not found: distance
+        println(s"name is $distance million kilometers from the the sun")
+                           ^^^^^^^^
+2022.04.20 13:24:58 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 0.48s
+2022.04.20 13:27:42 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 1.32s
+[31merror[39m: src/toples.worksheet.sc:19:20: 
+Not found: planets_name
+        println(s"$planets_name is million kilometers from the the sun")
+                   ^^^^^^^^^^^^
+2022.04.20 13:28:39 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 0.42s
+[31merror[39m: src/toples.worksheet.sc:18:34: => expected but _ found
+    case(planets_name, distance) _ =>
+                                 ^
+2022.04.20 13:29:06 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 0.47s
+[31merror[39m: src/toples.worksheet.sc:18:34: => expected but _ found
+    case(planets_name, distance) _ =>
+                                 ^
+2022.04.20 13:29:11 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 0.28s
+2022.04.20 13:29:30 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 0.83s
+2022.04.20 13:30:37 INFO  time: evaluated worksheet 'toples.worksheet.sc' in 1s
