@@ -4792,3 +4792,9 @@ Required: Int
 2022.04.20 00:46:43 INFO  time: evaluated worksheet 'traits.worksheet.sc' in 1.5s
 2022.04.20 00:48:30 INFO  time: code lens generation in 8.14s
 2022.04.20 00:48:30 INFO  time: code lens generation in 6.68s
+2022.04.20 00:49:07 INFO  no build target found for /Users/honda/Documents/GitHub/basicsScala-1/src/unifiedType.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.20 00:49:07 INFO  time: evaluated worksheet 'unifiedType.worksheet.sc' in 9.03s
+2022.04.20 00:49:20 INFO  no build target found for /Users/honda/Documents/GitHub/basicsScala-1/src/classes.worksheet.sc. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.20 00:49:20 INFO  time: evaluated worksheet 'classes.worksheet.sc' in 11s
+2022.04.20 09:28:25 INFO  time: evaluated worksheet 'traits.worksheet.sc' in 1.03s
+2022.04.20 09:28:27 INFO  time: evaluated worksheet 'traits.worksheet.sc' in 0.72s
