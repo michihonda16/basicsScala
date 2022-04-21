@@ -1,0 +1,24 @@
+import scala. util.Random
+
+val x: Int = Random.nextInt(10)
+
+x match{
+  case 0 => "zero"
+  case 1 => "one"
+  case 2 => "two"
+  case _ => "other"
+}
+
+def matchTest(x: Int) : String = x match{
+  case 1 => "One"
+  case 2 => "Two"
+  case 3 => "Three"
+  case _ => "Other"
+}
+
+matchTest(1)
+matchTest(2)
+matchTest(3)
+matchTest(0)
+
+
