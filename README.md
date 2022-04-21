@@ -1,5 +1,5 @@
 # basicsScala
-## This file is for writing code from Tour of scala.
+This file is for writing code from Tour of scala.
 
 ## Refernce
 
