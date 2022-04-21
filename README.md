@@ -8,3 +8,6 @@ https://docs.github.com/en/issues/organizing-your-work-with-project-boards/track
 
 ### Github documentation format reference 
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+### How to Write an Equality Method in Java
+https://www.artima.com/articles/how-to-write-an-equality-method-in-java
